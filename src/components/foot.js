@@ -7,7 +7,7 @@ export default function Bfoot() {
         <div className='grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-2'>
           <div>
             <h2 className='mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white'>
-              Company
+              Contact Us
             </h2>
             <ul className='font-medium text-gray-500 dark:text-gray-400'>
               <li className='mb-4'>
@@ -34,28 +34,28 @@ export default function Bfoot() {
           </div>
           <div>
             <h2 className='mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white'>
-              Help center
+              Service Times
             </h2>
             <ul className='font-medium text-gray-500 dark:text-gray-400'>
               <li className='mb-4'>
-                <a href='#' className='hover:underline'>
-                  Discord Server
-                </a>
+                <h3 className='text-sm '>
+                  Sunday Morning Worship Service
+                  <br />
+                  10:00 A.M. On Campus
+                </h3>
               </li>
               <li className='mb-4'>
-                <a href='#' className='hover:underline'>
-                  Twitter
-                </a>
+                <h3 className='text-sm '>
+                  Sunday School
+                  <br />
+                  9:00 A.M. On Campus
+                </h3>
               </li>
               <li className='mb-4'>
-                <a href='#' className='hover:underline'>
-                  Facebook
-                </a>
-              </li>
-              <li className='mb-4'>
-                <a href='#' className='hover:underline'>
-                  Contact Us
-                </a>
+                <h3 className='text-sm '>
+                  Thursday Night Bible Study
+                  <br />6 - 7 P.M. On Campus
+                </h3>
               </li>
             </ul>
           </div>
