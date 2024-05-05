@@ -35,8 +35,8 @@ const Navbar = () => {
       <div className='flex items-center justify-between w-full h-full px-4 2xl:px-16'>
         <Link href='/'>
           <Image
-            src='/logo.png'
-            width={150}
+            src='/mt lovely logo.png'
+            width={250}
             height={150}
             className='cursor-pointer '
             alt='Logo'
