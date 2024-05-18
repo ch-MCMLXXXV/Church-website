@@ -6,6 +6,9 @@ export default function Home() {
   return (
     <main className=''>
       <Hero />
+      <div>
+        <h1>Welcome to Mt. Lovely Baptist Church!</h1>
+      </div>
     </main>
   );
 }
