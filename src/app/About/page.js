@@ -5,6 +5,112 @@ export default function About() {
   return (
     <>
       <section className='text-gray-600 body-font'>
+        <div className='container flex flex-col items-center px-5 py-24 mx-auto md:flex-row'>
+          <div className='w-5/6 mb-10 lg:max-w-lg lg:w-full md:w-1/2 md:mb-0'>
+            <Image
+              className='object-cover object-center rounded'
+              alt='pulpit'
+              src='/pulpit.jpg'
+              width={500}
+              height={500}
+            />
+          </div>
+          <div className='flex flex-col items-center text-center lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 md:items-start md:text-left'>
+            <h1 className='mb-4 text-3xl font-medium text-gray-900 title-font sm:text-4xl'>
+              History of the Church
+            </h1>
+            <p className='mb-8 leading-relaxed'>
+              About the year of 1893, the spirit of God led together a
+              group of men and women under a bush arbor in Camp Hill,
+              Alabama. They named the house of worship Liberty Hill
+              Baptist Church. It wasn&apos;t long after they had saved
+              enough money to purchase a small frame building from the
+              Universalist Church. This church building stood on a
+              half acre plot and was call Mt. Canaan. The Lord smiled
+              on the congregation and their efforts. Several pastors
+              added to the building of the kingdom through doctrinal
+              preaching, organizational skills and record keeping.
+              <br />
+              During the early 1930&apos;s, the church name was
+              changed to it&apos;s present name, the Mount Lovely
+              Baptist Church. In 1937, the church house burned and
+              services were held in a nearby school building. The
+              rebuilding occurred over the next few years with a brick
+              structure resulting. An additional acre of land was
+              purchased. Each decade produced significant progress
+              under the leadership of various pastors. During the
+              1970&apos;s,80&apos;s and 90&apos;s, many church
+              accomplishments were realized. In 1995, under the
+              leadership of the church&apos;s eighteenth pastor, Rev.
+              Bernard Harris, the church began to hold worship
+              services each Sunday.
+            </p>
+            {/* <div className='flex justify-center'>
+              <button className='inline-flex px-6 py-2 text-lg text-white bg-indigo-500 border-0 rounded focus:outline-none hover:bg-indigo-600'>
+                Button
+              </button>
+              <button className='inline-flex px-6 py-2 ml-4 text-lg text-gray-700 bg-gray-100 border-0 rounded focus:outline-none hover:bg-gray-200'>
+                Button
+              </button>
+            </div> */}
+          </div>
+        </div>
+      </section>
+      {/* <section class='text-gray-600 body-font'>
+        <div class='container px-5 py-24 mx-auto flex flex-wrap'>
+          <h2 class='sm:text-3xl text-2xl text-gray-900 font-medium title-font mb-2 md:w-2/5'>
+            History of the Church
+          </h2>
+          <div class='md:w-3/5 md:pl-6'>
+            <p class='leading-relaxed text-base'>
+              About the year of 1893, the spirit of God led together a
+              group of men and women under a bush arbor in Camp Hill,
+              Alabama. They named the house of worship Liberty Hill
+              Baptist Church. It wasn&apos;t long after they had saved
+              enough money to purchase a small frame building from the
+              Universalist Church. This church building stood on a
+              half acre plot and was call Mt. Canaan. The Lord smiled
+              on the congregation and their efforts. Several pastors
+              added to the building of the kingdom through doctrinal
+              preaching, organizational skills and record keeping.
+              <br />
+              During the early 1930&apos;s, the church name was
+              changed to it&apos;s present name, the Mount Lovely
+              Baptist Church. In 1937, the church house burned and
+              services were held in a nearby school building. The
+              rebuilding occurred over the next few years with a brick
+              structure resulting. An additional acre of land was
+              purchased. Each decade produced significant progress
+              under the leadership of various pastors. During the
+              1970&apos;s,80&apos;s and 90&apos;s, many church
+              accomplishments were realized. In 1995, under the
+              leadership of the church&apos;s eighteenth pastor, Rev.
+              Bernard Harris, the church began to hold worship
+              services each Sunday.
+            </p>
+            <div class='flex md:mt-4 mt-6'>
+              <button class='inline-flex text-white bg-indigo-500 border-0 py-1 px-4 focus:outline-none hover:bg-indigo-600 rounded'>
+                Button
+              </button>
+              <a class='text-indigo-500 inline-flex items-center ml-4'>
+                Learn More
+                <svg
+                  fill='none'
+                  stroke='currentColor'
+                  stroke-linecap='round'
+                  stroke-linejoin='round'
+                  stroke-width='2'
+                  class='w-4 h-4 ml-2'
+                  viewBox='0 0 24 24'
+                >
+                  <path d='M5 12h14M12 5l7 7-7 7'></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section> */}
+      <section className='text-gray-600 body-font'>
         <div className='container flex flex-col px-5 py-24 mx-auto'>
           <div className='mx-auto lg:w-4/6'>
             <div className='overflow-hidden text-4xl italic font-extrabold text-center rounded-lg h-30'>
