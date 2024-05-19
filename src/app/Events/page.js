@@ -10,7 +10,7 @@ const Events = () => {
             <div className='flex flex-wrap py-8 md:flex-nowrap'>
               <div className='flex flex-col flex-shrink-0 mb-6 md:w-64 md:mb-0'>
                 <span className='font-semibold text-gray-700 title-font'>
-                  CATEGORY
+                  DATE
                 </span>
                 <span className='mt-1 text-sm text-gray-500'>
                   19 May 2024
@@ -21,6 +21,7 @@ const Events = () => {
                   Pastor&apos;s Anniversary
                 </h2>
                 <p className='leading-relaxed'>
+                  Time: 2pm <br />
                   Guest Speaker: Rev. Melvin Owens
                 </p>
                 {/* <a className='inline-flex items-center mt-4 text-indigo-500'>
@@ -43,7 +44,7 @@ const Events = () => {
             <div className='flex flex-wrap py-8 md:flex-nowrap'>
               <div className='flex flex-col flex-shrink-0 mb-6 md:w-64 md:mb-0'>
                 <span className='font-semibold text-gray-700 title-font'>
-                  CATEGORY
+                  DATE
                 </span>
                 <span className='mt-1 text-sm text-gray-500'>
                   4th Aug 2024
@@ -54,6 +55,7 @@ const Events = () => {
                   Church Anniversary
                 </h2>
                 <p className='leading-relaxed'>
+                  Time: 2pm <br />
                   Guest Speaker: Rev. Gary Dixon
                 </p>
                 {/* <a className='inline-flex items-center mt-4 text-indigo-500'>
@@ -76,24 +78,25 @@ const Events = () => {
             <div className='flex flex-wrap py-8 md:flex-nowrap'>
               <div className='flex flex-col flex-shrink-0 mb-6 md:w-64 md:mb-0'>
                 <span className='font-semibold text-gray-700 title-font'>
-                  CATEGORY
+                  DATE
                 </span>
                 <span className='text-sm text-gray-500'>
-                  12 Jun 2019
+                  5-7 Aug 2024
                 </span>
               </div>
               <div className='md:flex-grow'>
                 <h2 className='mb-2 text-2xl font-medium text-gray-900 title-font'>
-                  Woke master cleanse drinking vinegar salvia
+                  Revival
                 </h2>
                 <p className='leading-relaxed'>
-                  Glossier echo park pug, church-key sartorial
-                  biodiesel vexillologist pop-up snackwave ramps
-                  cornhole. Marfa 3 wolf moon party messenger bag
-                  selfies, poke vaporware kombucha lumbersexual pork
-                  belly polaroid hoodie portland craft beer.
+                  Time: 6:30pm <br />
+                  Aug 5th guest speaker: Rev. Edward Milner
+                  <br />
+                  Aug 6th guest speaker: Rev. Tyrone Edwards
+                  <br />
+                  Aug 7th guest speaker: Rev. Otis Tyner
                 </p>
-                <a className='inline-flex items-center mt-4 text-indigo-500'>
+                {/* <a className='inline-flex items-center mt-4 text-indigo-500'>
                   Learn More
                   <svg
                     className='w-4 h-4 ml-2'
@@ -107,7 +110,7 @@ const Events = () => {
                     <path d='M5 12h14'></path>
                     <path d='M12 5l7 7-7 7'></path>
                   </svg>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

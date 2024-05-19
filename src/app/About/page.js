@@ -19,7 +19,7 @@ export default function About() {
             <h1 className='mb-4 text-3xl font-medium text-gray-900 title-font sm:text-4xl'>
               History of the Church
             </h1>
-            <p className='mb-8 leading-relaxed'>
+            <p className='mb-5 leading-relaxed indent-8'>
               About the year of 1893, the spirit of God led together a
               group of men and women under a bush arbor in Camp Hill,
               Alabama. They named the house of worship Liberty Hill
@@ -30,7 +30,8 @@ export default function About() {
               on the congregation and their efforts. Several pastors
               added to the building of the kingdom through doctrinal
               preaching, organizational skills and record keeping.
-              <br />
+            </p>
+            <p className='mb-5 leading-relaxed indent-8'>
               During the early 1930&apos;s, the church name was
               changed to it&apos;s present name, the Mount Lovely
               Baptist Church. In 1937, the church house burned and
@@ -114,7 +115,9 @@ export default function About() {
         <div className='container flex flex-col px-5 py-24 mx-auto'>
           <div className='mx-auto lg:w-4/6'>
             <div className='overflow-hidden text-4xl italic font-extrabold text-center rounded-lg h-30'>
-              <h1>From the Pastor&apos;s Desk</h1>
+              <h1 className='text-black '>
+                From the Pastor&apos;s Desk
+              </h1>
 
               {/* <Image
                 alt='content'
@@ -159,7 +162,7 @@ export default function About() {
                 </div>
               </div>
               <div className='pt-4 mt-4 text-center border-t border-gray-200 sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l sm:border-t-0 sm:mt-0 sm:text-left'>
-                <p className='mb-4 text-lg leading-relaxed'>
+                <p className='mb-2 leading-relaxed indent-8'>
                   The Lord is gracious and He continues to smile on
                   our church family. As we grow both numerically and
                   spiritually, we count it a blessing from God. At our
@@ -170,11 +173,12 @@ export default function About() {
                   pastor of any church family to have this blessed
                   opportunity to serve at Mt. Lovely and the
                   surrounding communities.
-                  <br />
-                  <br /> It is my conviction that our church family
-                  deserves the very best we can offer. I gladly extend
-                  other men of God preaching engagements. I believe
-                  the worship experience is a sacred experience and
+                </p>
+                <p className='mb-2 leading-relaxed indent-8'>
+                  It is my conviction that our church family deserves
+                  the very best we can offer. I gladly extend other
+                  men of God preaching engagements. I believe the
+                  worship experience is a sacred experience and
                   therefore should promote God and the preaching of
                   the gospel. All activities and meetings at our
                   church shall have a spiritual component and lay a
@@ -185,18 +189,21 @@ export default function About() {
                   innovation of various approaches in the spread of
                   the gospel. I maintain that the presentation should
                   be based on the WORD of God.
-                  <br /> <br />
+                </p>
+                <p className='mb-2 leading-relaxed indent-8'>
                   It always warms my heart to welcome visitors here at
                   Mt. Lovely. We extend you future invitations to
                   share and become more involved with our church. If
                   you are without a church home and would like to talk
                   with me personally, please call me on my cell (205)
                   587.6871 or visit the church office on Tuesdays
-                  10-12.
-                  <br />
-                  <br /> Yours in Christ,
-                  <br />
-                  Pastor Bernard Harris
+                  10am-12pm.
+                </p>
+                <p className='mb-4 leading-relaxed'>
+                  Yours in Christ,
+                </p>
+                <p className='mb-4 leading-relaxed'>
+                  Sr. Pastor Bernard Harris
                 </p>
                 {/* <a className='inline-flex items-center text-indigo-500'>
                   Learn More

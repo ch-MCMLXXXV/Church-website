@@ -7,27 +7,27 @@ export default function Bfoot() {
         <div className='grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-2'>
           <div>
             <h2 className='mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white'>
-              Contact Us
+              Site Links
             </h2>
             <ul className='font-medium text-gray-500 dark:text-gray-400'>
               <li className='mb-4'>
-                <a href='#' className=' hover:underline'>
+                <a href='/About' className=' hover:underline'>
                   About
                 </a>
               </li>
               <li className='mb-4'>
-                <a href='#' className='hover:underline'>
-                  Careers
+                <a href='/Mission' className='hover:underline'>
+                  Mission
                 </a>
               </li>
               <li className='mb-4'>
-                <a href='#' className='hover:underline'>
-                  Brand Center
+                <a href='/Events' className='hover:underline'>
+                  Events
                 </a>
               </li>
               <li className='mb-4'>
-                <a href='#' className='hover:underline'>
-                  Blog
+                <a href='/Contact' className='hover:underline'>
+                  Contact
                 </a>
               </li>
             </ul>
@@ -133,7 +133,7 @@ export default function Bfoot() {
               </svg>
               <span className='sr-only'>Facebook page</span>
             </a>
-            <a
+            {/* <a
               href='#'
               className='text-gray-400 hover:text-gray-900 dark:hover:text-white'
             >
@@ -204,7 +204,7 @@ export default function Bfoot() {
                 />
               </svg>
               <span className='sr-only'>Dribbble account</span>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
