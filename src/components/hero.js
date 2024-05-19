@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function Hero() {
   return (
     <>
-      <section className='text-white bg-center bg-auto body-font bg-churchbw'>
+      <section className='text-white bg-center bg-auto body-font bg-church'>
         <div className='container flex flex-col items-center px-5 py-24 mx-auto md:flex-row'>
           <div className='flex flex-col items-center mb-16 text-center lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:text-left md:mb-0'>
             <h1 className='mb-4 text-3xl font-medium text-white uppercase title-font sm:text-3xl'>
