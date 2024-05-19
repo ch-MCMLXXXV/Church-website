@@ -22,11 +22,11 @@ const Contact = () => {
         <div className='container flex px-5 py-24 mx-auto'>
           <div className='relative z-10 flex flex-col w-full p-8 mt-10 bg-white rounded-lg shadow-md lg:w-1/3 md:w-1/2 md:ml-auto md:mt-0'>
             <h2 className='mb-1 text-lg font-medium text-gray-900 title-font'>
-              Feedback
+              Contact Us
             </h2>
             <p className='mb-5 leading-relaxed text-gray-600'>
-              Post-ironic portland shabby chic echo park, banjo
-              fashion axe
+              Please fill out this short form and we will get back to
+              you as soon as possible.
             </p>
             <div className='relative mb-4'>
               <label
@@ -59,8 +59,7 @@ const Contact = () => {
               Button
             </button>
             <p className='mt-3 text-xs text-gray-500'>
-              Chicharrones blog helvetica normcore iceland tousled
-              brook viral artisan.
+              Thank you for contacting us!
             </p>
           </div>
         </div>
